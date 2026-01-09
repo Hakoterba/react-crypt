@@ -1,0 +1,34 @@
+{
+    "color": {
+        "primary": {
+            "azure": {
+                "value": "#3767B6"
+            }
+        },
+        "secondary": {
+            "navy": {
+                "value": "#102F7D"
+            },
+            "cerulean": {
+                "value": "#59B9F5"
+            },
+            "emerald": {
+                "value": "#69CC97"
+            },
+            "purple": {
+                "value": "#AB83B9"
+            }
+        },
+        "greyscale": {
+            "lightGrey": {
+                "value": "#C4C4C4"
+            },
+            "grey": {
+                "value": "#9B9B9B"
+            },
+            "darkGrey": {
+                "value": "#757575"
+            }
+        }
+    }
+}
