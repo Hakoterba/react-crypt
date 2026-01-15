@@ -1,8 +1,15 @@
 'use client';
 
 import Button from "./src/design-system/atom/button";
+import React, { useState, useEffect } from 'react';
 
 export default function Home() {
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", isDarkTheme);
+  }, [isDarkTheme]);
+
   return (
     <div className="flex items-center justify-center min-h-screen">
         <Button
@@ -11,6 +18,12 @@ export default function Home() {
           handleClick={() => alert("Button clicked!")}
           p="m"
         />
-    </div>
+        <Button
+          label="Switch theme"
+          color="azure"
+          handleClick={() => setIsDarkTheme(!isDarkTheme)}
+          p="m"
+        />   
+      </div>
   );
 }
