@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import type { ColorType } from '../tokenTypes';
 import { MouseEventHandler } from 'react';
 import type { SpacingSystemProps } from '../colorSystemProps';
-import '../button.module.scss';
+import '../button.css';
 
 interface ButtonProps extends SpacingSystemProps {
     color: ColorType;
