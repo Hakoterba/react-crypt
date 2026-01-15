@@ -1,0 +1,35 @@
+.button {
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: var(--color-primary-azure);
+}
+
+.button--azure {
+    background-color: var(--color-primary-azure);
+}
+
+.button--navy {
+    background-color: var(--color-secondary-navy);
+}
+
+.button--cerulean {
+    background-color: var(--color-secondary-cerulean);
+}
+
+.button--emerald {
+    background-color: var(--color-secondary-emerald);
+}
+
+.button--purple {
+    background-color: var(--color-secondary-purple);
+}
+
+.p-0 { padding: var(--space-0); }
+.p-xxs { padding: var(--space-xxs); }
+.p-xs { padding: var(--space-xs); }
+.p-s { padding: var(--space-s); }
+.p-m { padding: var(--space-m); }
+.p-l { padding: var(--space-l); }
+.p-xl { padding: var(--space-xl); }
