@@ -1,35 +1,27 @@
-'use client';
-
 import classNames from 'classnames';
-import type { ColorType } from '../tokenTypes';
-import { MouseEventHandler, ReactNode } from 'react';
-import type { SpacingSystemProps } from '../colorSystemProps';
-import '../button.css';
+import '../../design-system/button.css';
 
-interface ButtonProps extends SpacingSystemProps {
-    color: ColorType;
-    label: string;
-    handleClick: MouseEventHandler<HTMLButtonElement>;
-    icon?: ReactNode | null;
+interface ButtonProps {
+  label?: string;
+  icon?: React.ReactNode;
+  handleClick?: () => void;
+  className?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({
-    label,
-    color,
-    handleClick,
-    p,
-    icon,
-    }) => (
-    <button
-        className={classNames('button', {
-            [`button--${color}`]: color, [`p-${p}`]: p,
-        })}
-        onClick={handleClick}
-        aria-label={label || 'Toggle theme'}>
-        {icon && <span className="button__icon">{icon}</span>}
-        {label && <span className="button__label">{label}</span>}
-    </button>
+  label,
+  icon,
+  handleClick,
+  className,
+}) => (
+  <button
+    className={classNames('button', className)}
+    onClick={handleClick}
+    aria-label={label || 'Button'}
+  >
+    {icon && <span className="button__icon">{icon}</span>}
+    {label && <span className="button__label">{label}</span>}
+  </button>
 );
-
 
 export default Button;
