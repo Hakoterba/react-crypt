@@ -1,7 +1,5 @@
 .button {
-    border: none;
     cursor: pointer;
-    border-radius: 6px;
     font-weight: 500;
     background-color: var(--color-primary-azure);
 }
