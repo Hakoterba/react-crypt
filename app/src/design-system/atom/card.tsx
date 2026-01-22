@@ -5,14 +5,15 @@ interface CardProps {
     title: string;
     value: string;
     total: string;
-    titleSize?: 'sm' | 'md' | 'lg';
+    valueSize?: 'sm' | 'md' | 'lg';
+    variant?: 'default' | 'summary';
     className?: string;
 }
 
-const titleSizeClasses = {
-    sm: 'text-xl',
-    md: 'text-2xl',
-    lg: 'text-4xl',
+const valueSizeClasses = {
+    sm: 'text-lg',
+    md: 'text-xl',
+    lg: 'text-3xl',
 };
 
 const Card: React.FC<CardProps> = ({
@@ -20,22 +21,40 @@ const Card: React.FC<CardProps> = ({
     title,
     value,
     total,
-    titleSize = 'md',
+    valueSize = 'md',
+    variant = 'default',
     className = '',
-}) => {
-    return (
-        <div className={`rounded-lg border border-gray-200 p-6 shadow-sm ${className}`}>
-            {icon && (
-                <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                    {icon}
-                </div>
-            )}
-            <h2 className={`mb-2 font-medium`}>
-                {title}
-            </h2>
+    }) => {
+    const isSummary = variant === 'summary';
 
-            <h3 className={`mb-2 font-semibold ${titleSizeClasses[titleSize ?? 'md']}`}>{value}</h3>
-            <p className="text-sm">{total}</p>
+    return (
+        <div
+        className={`
+            p-6 rounded-xl border
+            ${isSummary
+            ? 'bg-linear-to-br from-primary/10 to-primary/5 border-primary/20'
+            : 'bg-card border-border'}
+            ${className}
+        `}
+        >
+        {/* Title */}
+        <div className="flex items-center gap-2 mb-2">
+            {!isSummary && icon && (
+            <span className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold bg-primary text-white">
+                {icon}
+            </span>
+            )}
+
+            <p className="text-sm text-muted-foreground">{title}</p>
+        </div>
+
+        <p className={`font-bold text-foreground ${valueSizeClasses[valueSize]}`}>
+            {value}
+        </p>
+
+        <p className="text-sm text-muted-foreground mt-1">
+            {total}
+        </p>
         </div>
     );
 };
