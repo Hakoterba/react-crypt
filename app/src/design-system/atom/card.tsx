@@ -10,9 +10,9 @@ interface CardProps {
 }
 
 const titleSizeClasses = {
-    sm: 'text-base',
-    md: 'text-lg',
-    lg: 'text-xl',
+    sm: 'text-xl',
+    md: 'text-2xl',
+    lg: 'text-4xl',
 };
 
 const Card: React.FC<CardProps> = ({
@@ -30,11 +30,11 @@ const Card: React.FC<CardProps> = ({
                     {icon}
                 </div>
             )}
-            <h2 className={`mb-2 font-medium ${titleSizeClasses[titleSize ?? 'md']}`}>
+            <h2 className={`mb-2 font-medium`}>
                 {title}
             </h2>
 
-            <h3 className="mb-2 text-4xl font-semibold">{value}</h3>
+            <h3 className={`mb-2 font-semibold ${titleSizeClasses[titleSize ?? 'md']}`}>{value}</h3>
             <p className="text-sm">{total}</p>
         </div>
     );
