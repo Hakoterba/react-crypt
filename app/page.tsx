@@ -54,7 +54,7 @@ export default function Home() {
             title="Total porfolio value"
             value="1281,18$"
             total="3 wallets"
-            titleSize="lg"
+            valueSize="lg"
             className="border-gray-500 w-1/2 flex-none"
           />
 
@@ -73,6 +73,37 @@ export default function Home() {
             total="4000,00$"
             className="flex-1 ml-6"
           />
+        </div>
+
+        <div className="mt-10">
+          <div className="flex w-full gap-6">
+
+            <div className="w-2/3">
+
+              <div className="mb-5 flex items-center justify-between px-10">
+                <h2 className="text-xl font-bold text-foreground">
+                  Your Wallets
+                </h2>
+                <p>Nombre de wallets: 3</p>
+              </div>
+
+              <div className="flex flex-wrap gap-6 px-10">
+                <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+                  Card 1
+                </div>
+                <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+                  Card 2
+                </div>
+                <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+                  Card 3
+                </div>
+              </div>
+            </div>
+
+            <div className="w-1/3 rounded-xl bg-white p-6 shadow">
+              Wallets détails
+            </div>
+          </div>
         </div>
 
         </main>
