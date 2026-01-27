@@ -34,3 +34,9 @@ body {
   justify-content: center;
   cursor: pointer;
 }
+
+.button__icon svg, .card__icon svg, .list__wallet-icon svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+}

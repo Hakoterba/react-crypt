@@ -31,9 +31,3 @@
 .p-m { padding: var(--space-m); }
 .p-l { padding: var(--space-l); }
 .p-xl { padding: var(--space-xl); }
-
-.button__icon svg, .card__icon svg {
-    width: 20px;
-    height: 20px;
-    display: block;
-}
