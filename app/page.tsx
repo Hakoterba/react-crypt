@@ -1,7 +1,8 @@
 'use client';
 
 import Button from "./src/design-system/atom/button";
-import Card from "./src/design-system/atom/card";
+import Card  from "./src/design-system/atom/card";
+import CardWallet from "./src/design-system/atom/cardWallet";
 import { useState, useEffect } from "react";
 import { useTheme } from "./hooks/useTheme";
 import { SunIcon, MoonIcon, WalletIcon, AddIcon, BitcoinIcon, EthereumIcon } from './src/styles/icons';
@@ -88,9 +89,16 @@ export default function Home() {
               </div>
 
               <div className="flex flex-wrap gap-6 px-10">
-                <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
-                  Card 1
-                </div>
+                  <CardWallet
+                    icon="Ξ"
+                    title="Main Ethereum"
+                    address="0x742d35Cc66...95f2bD31"
+                    value="12.4582"
+                    currency="ETH"
+                    total="$40 494,38"
+                    totalTransaction={8}
+                    onDelete={() => alert('Delete wallet')}
+                  />
                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
                   Card 2
                 </div>
