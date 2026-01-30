@@ -3,6 +3,7 @@
 import Button from "./src/design-system/atom/button";
 import Card  from "./src/design-system/atom/card";
 import CardWallet from "./src/design-system/atom/cardWallet";
+import DetailWallet from "./src/design-system/atom/detailWallet";
 import { useState, useEffect } from "react";
 import { useTheme } from "./hooks/useTheme";
 import { SunIcon, MoonIcon, WalletIcon, AddIcon, BitcoinIcon, EthereumIcon } from './src/styles/icons';
@@ -81,14 +82,14 @@ export default function Home() {
 
             <div className="w-2/3">
 
-              <div className="mb-5 flex items-center justify-between px-10">
+              <div className="mb-5 flex items-center justify-between">
                 <h2 className="text-xl font-bold text-foreground">
                   Your Wallets
                 </h2>
                 <p>Nombre de wallets: 3</p>
               </div>
 
-              <div className="flex flex-wrap gap-6 px-10">
+              <div className="flex flex-wrap gap-6">
                   <CardWallet
                     icon="Ξ"
                     title="Main Ethereum"
@@ -99,21 +100,58 @@ export default function Home() {
                     totalTransaction={8}
                     onDelete={() => alert('Delete wallet')}
                   />
-                <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
-                  Card 2
-                </div>
-                <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
-                  Card 3
-                </div>
+
+                  <CardWallet
+                    icon="Ξ"
+                    title="Main Ethereum"
+                    address="0x742d35Cc66...95f2bD31"
+                    value="12.4582"
+                    currency="ETH"
+                    total="$40 494,38"
+                    totalTransaction={8}
+                    onDelete={() => alert('Delete wallet')}
+                  />
+
+                  <CardWallet
+                    icon="Ξ"
+                    title="Main Ethereum"
+                    address="0x742d35Cc66...95f2bD31"
+                    value="12.4582"
+                    currency="ETH"
+                    total="$40 494,38"
+                    totalTransaction={8}
+                    onDelete={() => alert('Delete wallet')}
+                  />
+
               </div>
             </div>
 
-            <div className="w-1/3 rounded-xl bg-white p-6 shadow">
-              Wallets détails
-            </div>
+              <DetailWallet
+                title="Bitcoin Savings"
+                address="1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2"
+                balance={0.8234}
+                transactions={[
+                  {
+                    id: "1",
+                    type: "send",
+                    hash: "12d7fd79797fa176ec67721072e66a8ebef",
+                    amount: 0.167537,
+                    date: "22/01, 03:42",
+                    status: "completed",
+                  },
+                  {
+                    id: "2",
+                    type: "receive",
+                    hash: "1a6f70670a2d1859266b6b31d628930ee2a",
+                    amount: 0.151999,
+                    date: "17/01, 02:09",
+                    status: "completed",
+                  },
+                ]}
+              />
+            
           </div>
         </div>
-
         </main>
     </div>
 
