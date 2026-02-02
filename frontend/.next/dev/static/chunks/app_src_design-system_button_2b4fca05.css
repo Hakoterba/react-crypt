@@ -1,0 +1,56 @@
+/* [project]/app/src/design-system/button.css [app-client] (css) */
+.button {
+  cursor: pointer;
+  background-color: var(--color-primary-azure);
+  font-weight: 500;
+}
+
+.button--azure {
+  background-color: var(--color-primary-azure);
+}
+
+.button--navy {
+  background-color: var(--color-secondary-navy);
+}
+
+.button--cerulean {
+  background-color: var(--color-secondary-cerulean);
+}
+
+.button--emerald {
+  background-color: var(--color-secondary-emerald);
+}
+
+.button--purple {
+  background-color: var(--color-secondary-purple);
+}
+
+.p-0 {
+  padding: var(--space-0);
+}
+
+.p-xxs {
+  padding: var(--space-xxs);
+}
+
+.p-xs {
+  padding: var(--space-xs);
+}
+
+.p-s {
+  padding: var(--space-s);
+}
+
+.p-m {
+  padding: var(--space-m);
+}
+
+.p-l {
+  padding: var(--space-l);
+}
+
+.p-xl {
+  padding: var(--space-xl);
+}
+
+/*# sourceMappingURL=app_src_design-system_button_2b4fca05.css.map*/

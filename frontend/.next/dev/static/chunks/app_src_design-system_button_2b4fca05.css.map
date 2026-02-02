@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/hkoterba/Documents/projet_solo/react-crypt/frontend/app/src/design-system/button.css"],"sourcesContent":[".button {\n    cursor: pointer;\n    font-weight: 500;\n    background-color: var(--color-primary-azure);\n}\n\n.button--azure {\n    background-color: var(--color-primary-azure);\n}\n\n.button--navy {\n    background-color: var(--color-secondary-navy);\n}\n\n.button--cerulean {\n    background-color: var(--color-secondary-cerulean);\n}\n\n.button--emerald {\n    background-color: var(--color-secondary-emerald);\n}\n\n.button--purple {\n    background-color: var(--color-secondary-purple);\n}\n\n.p-0 { padding: var(--space-0); }\n.p-xxs { padding: var(--space-xxs); }\n.p-xs { padding: var(--space-xs); }\n.p-s { padding: var(--space-s); }\n.p-m { padding: var(--space-m); }\n.p-l { padding: var(--space-l); }\n.p-xl { padding: var(--space-xl); }"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AACA"}}]
+}
