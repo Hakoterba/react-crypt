@@ -1,0 +1,20 @@
+/* [project]/app/src/styles/css/tokens.css [app-client] (css) */
+:root {
+  --spacing-0: 0;
+  --spacing-xxs: 8px;
+  --spacing-xs: 12px;
+  --spacing-s: 16px;
+  --spacing-m: 24px;
+  --spacing-l: 32px;
+  --spacing-xl: 42px;
+  --color-primary-azure: #3767b6;
+  --color-secondary-navy: #102f7d;
+  --color-secondary-cerulean: #59b9f5;
+  --color-secondary-emerald: #69cc97;
+  --color-secondary-purple: #ab83b9;
+  --color-grey-light: #c4c4c4;
+  --color-grey: #9b9b9b;
+  --color-grey-dark: #757575;
+}
+
+/*# sourceMappingURL=app_src_styles_css_tokens_css_bad6b30c._.single.css.map*/

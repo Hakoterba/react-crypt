@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/src/styles/css/token.css"],"sourcesContent":[":root {\n    /* Spacing */\n    --spacing-0: 0;\n    --spacing-xxs: 8px;\n    --spacing-xs: 12px;\n    --spacing-s: 16px;\n    --spacing-m: 24px;\n    --spacing-l: 32px;\n    --spacing-xl: 42px;\n\n    /* Colors */\n    --color-primary-azure: #3767B6;\n\n    --color-secondary-navy: #102F7D;\n    --color-secondary-cerulean: #59B9F5;\n    --color-secondary-emerald: #69CC97;\n    --color-secondary-purple: #AB83B9;\n\n    --color-grey-light: #C4C4C4;\n    --color-grey: #9B9B9B;\n    --color-grey-dark: #757575;\n}\n"],"names":[],"mappings":"AAAA"}}]
+}

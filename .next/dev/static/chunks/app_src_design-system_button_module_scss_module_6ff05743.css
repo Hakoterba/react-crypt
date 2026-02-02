@@ -1,0 +1,12 @@
+/* [project]/app/src/design-system/button.module.scss.module.css [app-client] (css) */
+.button-module-scss-module__1KYAGq__button {
+  color: #fff;
+  padding: var(--spacing-xs);
+  background-color: red;
+}
+
+.button-module-scss-module__1KYAGq__button--bg-primary {
+  background-color: var(--color-primary);
+}
+
+/*# sourceMappingURL=app_src_design-system_button_module_scss_module_6ff05743.css.map*/

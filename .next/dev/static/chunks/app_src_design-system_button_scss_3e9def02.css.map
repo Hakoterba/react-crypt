@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/app/src/design-system/button.scss"],"sourcesContent":[".button {\n    color: white;\n    padding: var(--spacing-xs);\n\n    &--bg-primary {\n        background-color: var(--color-primary);\n    }\n}\n\n/* primary */\n.button--azure {\n    background-color: var(--color-primary-azure);\n}\n\n/* secondary */\n.button--navy {\n    background-color: var(--color-secondary-navy);\n}\n\n.button--cerulean {\n    background-color: var(--color-secondary-cerulean);\n}\n\n.button--emerald {\n    background-color: var(--color-secondary-emerald);\n}\n\n.button--purple {\n    background-color: var(--color-secondary-purple);\n}\n\n/* greyscale (si besoin) */\n.button--grey {\n    background-color: var(--color-grey);\n    color: #000;\n}"],"names":[],"mappings":"AAAA;;;;;AAII;;;;AAMJ;;;;AAKA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAKA"}}]
+}

@@ -1,0 +1,2071 @@
+[00:00:02.347] Server  LOG     ✓ Ready in 1641ms
+[00:00:04.772] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:13.944] Server  LOG     ✓ Compiled in 85ms
+[00:01:35.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:35.655] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:02:23.531] Server  LOG     ✓ Compiled in 318ms
+[00:02:27.761] Server  LOG     ✓ Compiled in 174ms
+[00:06:01.966] Server  LOG     ✓ Compiled in 65ms
+[00:06:02.840] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:06:02.840] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? shape-rendering shapeRendering
+[00:06:02.840] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? text-rendering textRendering
+[00:06:02.840] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? image-rendering imageRendering
+[00:06:02.840] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:15:41.223] Server  LOG     ✓ Compiled in 34ms
+[00:15:52.246] Server  LOG     ✓ Compiled in 44ms
+[00:15:56.424] Server  LOG     ✓ Compiled in 47ms
+[37:19:23.248] Server  LOG     ✓ Compiled in 348ms
+[37:19:46.815] Server  LOG     ✓ Compiled in 39ms
+[37:20:44.584] Server  LOG     ✓ Compiled in 69ms
+[37:20:45.016] Browser ERROR   uncaughtError: ReferenceError: title is not defined
+[37:21:36.418] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[37:21:36.419] Server  LOG     ✓ Compiled in 84ms
+[37:21:38.268] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[37:21:38.763] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[37:22:20.363] Server  LOG     ✓ Compiled in 45ms
+[37:24:56.191] Server  LOG     ✓ Compiled in 65ms
+[37:24:57.833] Server  LOG     ✓ Compiled in 91ms
+[37:31:13.284] Server  LOG     ✓ Compiled in 88ms
+[37:32:13.365] Server  LOG     ✓ Compiled in 29ms
+[37:32:51.323] Server  LOG     ✓ Compiled in 62ms
+[37:33:59.413] Server  LOG     ✓ Compiled in 69ms
+[37:34:22.196] Server  LOG     ✓ Compiled in 75ms
+[37:34:30.726] Server  LOG     ✓ Compiled in 71ms
+[37:34:47.580] Server  LOG     ✓ Compiled in 130ms
+[37:34:57.226] Server  LOG     ✓ Compiled in 32ms
+[37:35:10.039] Server  LOG     ✓ Compiled in 40ms
+[37:35:56.185] Server  LOG     ✓ Compiled in 93ms
+[37:36:03.463] Server  LOG     ✓ Compiled in 83ms
+[37:39:39.877] Server  LOG     ✓ Compiled in 67ms
+[37:39:58.629] Server  LOG     ✓ Compiled in 60ms
+[37:40:20.753] Server  LOG     ✓ Compiled in 26ms
+[37:40:25.296] Server  LOG     ✓ Compiled in 39ms
+[37:40:29.201] Server  LOG     ✓ Compiled in 58ms
+[37:40:39.131] Server  LOG     ✓ Compiled in 42ms
+[37:40:47.893] Server  LOG     ✓ Compiled in 75ms
+[37:40:51.312] Server  LOG     ✓ Compiled in 40ms
+[37:42:30.918] Server  LOG     ✓ Compiled in 70ms
+[39:18:40.280] Server  LOG     ✓ Compiled in 49ms
+[39:18:46.755] Server  LOG     ✓ Compiled in 62ms
+[39:18:51.591] Server  LOG     ✓ Compiled in 31ms
+[39:19:00.783] Server  LOG     ✓ Compiled in 55ms
+[39:19:12.826] Server  LOG     ✓ Compiled in 196ms
+[39:19:22.084] Server  LOG     ✓ Compiled in 68ms
+[39:19:33.307] Server  LOG     ✓ Compiled in 32ms
+[39:19:36.048] Server  LOG     ✓ Compiled in 54ms
+[39:19:39.312] Server  LOG     ✓ Compiled in 42ms
+[39:39:14.671] Server  LOG     ✓ Compiled in 54ms
+[39:39:23.526] Server  LOG     ✓ Compiled in 115ms
+[39:39:42.510] Server  LOG     ✓ Compiled in 55ms
+[39:39:58.263] Server  LOG     ✓ Compiled in 109ms
+[39:40:15.050] Server  LOG     ✓ Compiled in 30ms
+[39:42:56.843] Server  LOG     ✓ Compiled in 58ms
+[39:43:07.764] Server  LOG     ✓ Compiled in 34ms
+[39:46:45.467] Server  LOG     ✓ Compiled in 32ms
+[39:47:08.113] Server  LOG     ✓ Compiled in 109ms
+[39:48:33.136] Server  LOG     ✓ Compiled in 77ms
+[39:48:50.156] Server  LOG     ✓ Compiled in 94ms
+[39:49:05.677] Server  LOG     ✓ Compiled in 187ms
+[39:49:06.325] Browser ERROR   ./app/page.tsx:54:40
+Parsing ecmascript source code failed
+  52 |         <div className="flex>
+  53 |           <Card
+> 54 |             title="Total porfolio value"
+     |                                        ^
+  55 |             value="1281,18$"
+  56 |             total="3 wallets"
+  57 |             className="border-gray-500 w-64 flex-none"
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[39:49:07.529] Server  LOG     ✓ Compiled in 89ms
+[39:49:16.010] Server  LOG     ✓ Compiled in 122ms
+[39:49:21.988] Server  LOG     ✓ Compiled in 117ms
+[39:50:25.827] Server  LOG     ✓ Compiled in 30ms
+[39:50:34.417] Server  LOG     ✓ Compiled in 174ms
+[39:50:52.697] Server  LOG     ✓ Compiled in 48ms
+[39:51:28.665] Server  LOG     ✓ Compiled in 72ms
+[39:51:28.766] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[39:51:28.766] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? shape-rendering shapeRendering
+[39:51:28.766] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? text-rendering textRendering
+[39:51:28.766] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? image-rendering imageRendering
+[39:51:28.766] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[39:51:36.015] Server  LOG     ✓ Compiled in 42ms
+[39:51:38.312] Server  LOG     ✓ Compiled in 69ms
+[39:52:13.030] Server  LOG     ✓ Compiled in 64ms
+[39:52:20.502] Server  LOG     ✓ Compiled in 90ms
+[39:53:02.257] Server  LOG     ✓ Compiled in 155ms
+[39:53:08.557] Server  LOG     ✓ Compiled in 54ms
+[39:53:13.784] Server  LOG     ✓ Compiled in 96ms
+[39:53:24.260] Server  LOG     ✓ Compiled in 35ms
+[39:54:40.230] Server  LOG     ✓ Compiled in 40ms
+[39:54:45.390] Server  LOG     ✓ Compiled in 29ms
+[39:54:56.494] Server  LOG     ✓ Compiled in 170ms
+[39:55:14.282] Server  LOG     ✓ Compiled in 194ms
+[39:55:32.552] Server  LOG     ✓ Compiled in 131ms
+[39:55:58.169] Server  LOG     ✓ Compiled in 142ms
+[39:56:00.945] Server  LOG     ✓ Compiled in 65ms
+[39:56:05.374] Server  LOG     ✓ Compiled in 75ms
+[39:56:08.431] Server  LOG     ✓ Compiled in 74ms
+[39:56:12.109] Server  LOG     ✓ Compiled in 84ms
+[39:56:37.830] Server  LOG     ✓ Compiled in 42ms
+[39:58:07.779] Server  LOG     ✓ Compiled in 58ms
+[39:59:39.722] Server  LOG     ✓ Compiled in 106ms
+[39:59:55.801] Server  LOG     ✓ Compiled in 64ms
+[40:00:49.929] Server  LOG     ✓ Compiled in 41ms
+[40:00:50.532] Browser ERROR   uncaughtError: ReferenceError: titleSize is not defined
+[40:01:13.420] Server  LOG     ✓ Compiled in 79ms
+[40:01:14.336] Browser ERROR   ./app/src/design-system/atom/card.tsx:24:5
+Parsing ecmascript source code failed
+  22 |     total,
+  23 |     titleSize = 'md'
+> 24 |     className = '',
+     |     ^^^^^^^^^
+  25 | }) => {
+  26 |     return (
+  27 |         <div className={`rounded-lg border border-gray-200 p-6 shadow-sm ${className}`}>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./app/src/design-system/atom/card.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/design-system/atom/card.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[40:01:14.336] Browser ERROR   ./app/src/design-system/atom/card.tsx:24:5
+Parsing ecmascript source code failed
+  22 |     total,
+  23 |     titleSize = 'md'
+> 24 |     className = '',
+     |     ^^^^^^^^^
+  25 | }) => {
+  26 |     return (
+  27 |         <div className={`rounded-lg border border-gray-200 p-6 shadow-sm ${className}`}>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./app/src/design-system/atom/card.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/design-system/atom/card.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[40:01:17.209] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[40:01:17.213] Server  LOG     ✓ Compiled in 138ms
+[40:01:20.569] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[40:01:21.770] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[40:01:32.592] Server  LOG     ✓ Compiled in 54ms
+[40:02:46.539] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[40:02:47.007] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[40:06:38.664] Server  LOG     ✓ Compiled in 62ms
+[40:07:22.549] Server  LOG     ✓ Compiled in 78ms
+[40:07:36.992] Server  LOG     ✓ Compiled in 31ms
+[40:13:02.135] Server  LOG     ✓ Compiled in 38ms
+[40:13:24.095] Server  LOG     ✓ Compiled in 184ms
+[40:13:25.281] Server  LOG     ✓ Compiled in 54ms
+[40:13:32.319] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[40:13:33.335] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[40:13:46.592] Server  LOG     ✓ Compiled in 79ms
+[111:02:52.467] Server  LOG     ✓ Compiled in 831ms
+[111:02:55.091] Server  LOG     ✓ Compiled in 57ms
+[111:03:25.533] Server  LOG     ✓ Compiled in 33ms
+[111:04:00.483] Server  LOG     ✓ Compiled in 116ms
+[111:07:01.666] Server  LOG     ✓ Compiled in 54ms
+[111:09:41.260] Server  LOG     ✓ Compiled in 86ms
+[111:09:41.361] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[111:09:41.361] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? shape-rendering shapeRendering
+[111:09:41.361] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? text-rendering textRendering
+[111:09:41.361] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? image-rendering imageRendering
+[111:09:41.361] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[111:10:01.741] Server  LOG     ✓ Compiled in 27ms
+[111:10:11.283] Server  LOG     ✓ Compiled in 42ms
+[111:10:13.603] Server  ERROR   Invalid DOM property `shape-rendering`. Did you mean `shapeRendering`?
+[111:10:13.605] Server  ERROR   Invalid DOM property `text-rendering`. Did you mean `textRendering`?
+[111:10:13.606] Server  ERROR   Invalid DOM property `image-rendering`. Did you mean `imageRendering`?
+[111:10:13.606] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+[111:10:13.607] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+[111:10:14.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[111:10:14.764] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[111:10:14.764] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? shape-rendering shapeRendering
+[111:10:14.764] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? text-rendering textRendering
+[111:10:14.764] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? image-rendering imageRendering
+[111:10:14.764] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[111:10:14.764] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[111:13:44.274] Server  LOG     ✓ Compiled in 56ms
+[111:14:00.194] Server  LOG     ✓ Compiled in 46ms
+[111:14:09.788] Server  LOG     ✓ Compiled in 67ms
+[111:14:45.452] Server  LOG     ✓ Compiled in 87ms
+[111:32:17.592] Server  LOG     ✓ Compiled in 47ms
+[111:32:27.101] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.102] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.105] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.106] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.108] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.109] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.112] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.114] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.115] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.116] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.117] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.117] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.119] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.120] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.121] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.122] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:32:27.137] Server  LOG     ✓ Compiled in 220ms
+[111:32:27.245] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:32:42.290] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:32:42.291] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:32:46.585] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:16.079] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:16.080] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:40.242] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:40.242] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:54.079] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:57.743] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:34:57.860] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:58.338] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:58.338] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:58.616] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:59.247] Browser ERROR   uncaughtError: Error: ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:34:59.475] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:34:59.656] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:35:02.300] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:35:02.423] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:35:09.874] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:35:10.227] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:35:42.277] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:35:42.393] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EthereumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EthereumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:35:56.785] Server  LOG     ✓ Compiled in 135ms
+[111:35:58.493] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[111:35:58.804] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[111:35:58.804] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? shape-rendering shapeRendering
+[111:35:58.804] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? text-rendering textRendering
+[111:35:58.804] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? image-rendering imageRendering
+[111:35:58.804] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[111:35:58.804] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[111:36:08.051] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.052] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.061] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.063] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.065] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.067] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.069] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.070] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.072] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.073] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.075] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.077] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.078] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.080] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.081] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.083] Server  ERROR   ⨯ ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[111:36:08.198] Server  LOG     ✓ Compiled in 169ms
+[111:36:08.295] Browser ERROR   ./app/src/styles/icons/index.tsx:6:1
+Module not found: Can't resolve './EtherumIcon'
+  4 | export { AddIcon } from './AddIcon';
+  5 | export { BitcoinIcon } from './BitcoinIcon';
+> 6 | export { EthereumIcon } from './EtherumIcon';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import traces:
+  Client Component Browser:
+    ./app/src/styles/icons/index.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/src/styles/icons/index.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[111:36:13.042] Server  LOG     ✓ Compiled in 178ms
+[111:36:46.600] Server  LOG     ✓ Compiled in 161ms
+[111:38:33.509] Server  LOG     ✓ Compiled in 81ms
+[111:41:43.025] Server  LOG     ✓ Compiled in 46ms
+[111:45:39.241] Server  LOG     ✓ Compiled in 58ms
+[111:46:58.145] Server  LOG     ✓ Compiled in 122ms
+[111:46:59.078] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[111:46:59.078] Browser ERROR   uncaughtError: Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[111:47:02.426] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[111:47:02.478] Server  LOG     ✓ Compiled in 100ms
+[111:47:04.106] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[111:47:05.089] Server  ERROR   ⨯ Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[111:47:05.131] Browser ERROR   uncaughtError: Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[111:47:05.828] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[111:47:06.005] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[111:47:06.005] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? shape-rendering shapeRendering
+[111:47:06.005] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? text-rendering textRendering
+[111:47:06.005] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? image-rendering imageRendering
+[111:47:06.005] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[111:47:06.005] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[111:47:06.005] Browser ERROR   uncaughtError: Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[111:47:24.057] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[111:47:24.876] Server  LOG     ✓ Compiled in 85ms
+[111:47:26.824] Server  ERROR   ⨯ Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[111:47:27.702] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[111:47:27.958] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[111:47:27.958] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? shape-rendering shapeRendering
+[111:47:27.958] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? text-rendering textRendering
+[111:47:27.958] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? image-rendering imageRendering
+[111:47:27.958] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[111:47:27.958] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[111:47:27.958] Browser ERROR   uncaughtError: Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+[111:47:32.105] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[111:47:32.123] Server  LOG     ✓ Compiled in 86ms
+[111:47:33.381] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[111:47:33.381] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[111:47:33.381] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? shape-rendering shapeRendering
+[111:47:33.381] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? text-rendering textRendering
+[111:47:33.381] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? image-rendering imageRendering
+[111:47:33.381] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[111:48:00.842] Server  LOG     ✓ Compiled in 50ms
+[111:49:11.536] Server  LOG     ✓ Compiled in 215ms
+[111:49:25.467] Server  LOG     ✓ Compiled in 32ms
+[111:51:41.064] Server  LOG     ✓ Compiled in 69ms
+[111:51:48.070] Server  LOG     ✓ Compiled in 81ms
+[111:51:54.102] Server  LOG     ✓ Compiled in 66ms
+[230:37:52.380] Server  LOG     ✓ Compiled in 1693ms
+[230:39:48.622] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[230:39:49.650] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[230:47:04.583] Server  LOG     ✓ Compiled in 323ms
+[230:47:13.346] Server  LOG     ✓ Compiled in 73ms
+[230:57:57.480] Server  LOG     ✓ Compiled in 68ms
+[230:58:06.279] Server  LOG     ✓ Compiled in 51ms
+[231:03:53.741] Server  LOG     ✓ Compiled in 35ms
+[231:04:25.713] Server  LOG     ✓ Compiled in 25ms
+[231:05:07.627] Server  LOG     ✓ Compiled in 49ms
+[231:05:18.974] Server  LOG     ✓ Compiled in 109ms
+[231:05:19.650] Browser ERROR   ./app/page.tsx:91:31
+Parsing ecmascript source code failed
+  89 |
+  90 |               <div className="flex flex-wrap gap-6 px-10">
+> 91 |                   <CardWallet ... />
+     |                               ^^^
+  92 |                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+  93 |                   Card 2
+  94 |                 </div>
+
+Expected '</', got '...'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[231:05:19.650] Browser ERROR   ./app/page.tsx:91:31
+Parsing ecmascript source code failed
+  89 |
+  90 |               <div className="flex flex-wrap gap-6 px-10">
+> 91 |                   <CardWallet ... />
+     |                               ^^^
+  92 |                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+  93 |                   Card 2
+  94 |                 </div>
+
+Expected '</', got '...'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[231:05:48.652] Browser ERROR   ./app/page.tsx:91:31
+Parsing ecmascript source code failed
+  89 |
+  90 |               <div className="flex flex-wrap gap-6 px-10">
+> 91 |                   <CardWallet ... />
+     |                               ^^^
+  92 |                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+  93 |                   Card 2
+  94 |                 </div>
+
+Expected '</', got '...'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[231:05:58.654] Browser ERROR   ./app/page.tsx:91:31
+Parsing ecmascript source code failed
+  89 |
+  90 |               <div className="flex flex-wrap gap-6 px-10">
+> 91 |                   <CardWallet ... />
+     |                               ^^^
+  92 |                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+  93 |                   Card 2
+  94 |                 </div>
+
+Expected '</', got '...'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[231:06:34.651] Browser ERROR   ./app/page.tsx:91:31
+Parsing ecmascript source code failed
+  89 |
+  90 |               <div className="flex flex-wrap gap-6 px-10">
+> 91 |                   <CardWallet ... />
+     |                               ^^^
+  92 |                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+  93 |                   Card 2
+  94 |                 </div>
+
+Expected '</', got '...'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[231:06:34.651] Browser ERROR   ./app/page.tsx:91:31
+Parsing ecmascript source code failed
+  89 |
+  90 |               <div className="flex flex-wrap gap-6 px-10">
+> 91 |                   <CardWallet ... />
+     |                               ^^^
+  92 |                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+  93 |                   Card 2
+  94 |                 </div>
+
+Expected '</', got '...'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[231:06:44.699] Browser ERROR   ./app/page.tsx:91:31
+Parsing ecmascript source code failed
+  89 |
+  90 |               <div className="flex flex-wrap gap-6 px-10">
+> 91 |                   <CardWallet ... />
+     |                               ^^^
+  92 |                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+  93 |                   Card 2
+  94 |                 </div>
+
+Expected '</', got '...'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[231:06:44.699] Browser ERROR   ./app/page.tsx:91:31
+Parsing ecmascript source code failed
+  89 |
+  90 |               <div className="flex flex-wrap gap-6 px-10">
+> 91 |                   <CardWallet ... />
+     |                               ^^^
+  92 |                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+  93 |                   Card 2
+  94 |                 </div>
+
+Expected '</', got '...'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[231:06:50.655] Browser ERROR   ./app/page.tsx:92:31
+Parsing ecmascript source code failed
+  90 |
+  91 |               <div className="flex flex-wrap gap-6 px-10">
+> 92 |                   <CardWallet ... />
+     |                               ^^^
+  93 |                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+  94 |                   Card 2
+  95 |                 </div>
+
+Expected '</', got '...'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[231:06:50.656] Browser ERROR   ./app/page.tsx:92:31
+Parsing ecmascript source code failed
+  90 |
+  91 |               <div className="flex flex-wrap gap-6 px-10">
+> 92 |                   <CardWallet ... />
+     |                               ^^^
+  93 |                 <div className="w-[calc(50%-12px)] rounded-xl bg-white p-6 shadow">
+  94 |                   Card 2
+  95 |                 </div>
+
+Expected '</', got '...'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[231:09:23.720] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[231:09:23.959] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[231:12:59.486] Server  LOG     ✓ Compiled in 138ms
+[231:14:26.017] Server  LOG     ✓ Compiled in 54ms
+[231:14:33.879] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[231:14:34.612] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[231:14:34.612] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[231:14:41.877] Server  LOG     ✓ Compiled in 34ms
+[231:14:48.882] Server  LOG     ✓ Compiled in 48ms
+[231:15:06.500] Server  LOG     ✓ Compiled in 24ms
+[231:15:07.595] Server  LOG     ✓ Compiled in 29ms
+[231:16:33.363] Server  LOG     ✓ Compiled in 18ms
+[231:17:35.186] Server  LOG     ✓ Compiled in 26ms
+[231:18:44.753] Server  LOG     ✓ Compiled in 35ms
+[231:22:23.235] Server  LOG     ✓ Compiled in 335ms
+[231:24:06.286] Server  LOG     ✓ Compiled in 48ms
+[231:24:33.454] Server  LOG     ✓ Compiled in 33ms
+[231:25:16.893] Server  LOG     ✓ Compiled in 58ms
+[231:25:22.130] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[231:25:22.547] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[231:25:22.547] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[231:25:35.766] Server  LOG     ✓ Compiled in 74ms
+[231:25:43.725] Server  LOG     ✓ Compiled in 28ms
+[231:27:29.916] Server  LOG     ✓ Compiled in 85ms
+[231:27:34.154] Server  LOG     ✓ Compiled in 98ms
+[231:27:55.317] Server  LOG     ✓ Compiled in 50ms
+[231:28:09.959] Server  LOG     ✓ Compiled in 69ms
+[231:28:28.139] Server  LOG     ✓ Compiled in 147ms
+[231:29:29.383] Server  LOG     ✓ Compiled in 22ms
+[231:29:29.651] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[231:29:29.651] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[231:29:29.651] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[231:29:55.108] Server  LOG     ✓ Compiled in 28ms
+[231:40:53.150] Server  LOG     ✓ Compiled in 30ms
+[231:41:12.727] Server  LOG     ✓ Compiled in 56ms
+[231:41:24.153] Server  LOG     ✓ Compiled in 36ms
+[231:41:36.671] Server  LOG     ✓ Compiled in 36ms
+[231:41:45.808] Server  LOG     ✓ Compiled in 70ms
+[231:41:50.814] Server  LOG     ✓ Compiled in 25ms
+[231:41:54.356] Server  LOG     ✓ Compiled in 45ms
+[231:41:57.794] Server  LOG     ✓ Compiled in 43ms
+[231:42:04.615] Server  LOG     ✓ Compiled in 27ms
+[231:51:13.528] Server  LOG     ✓ Compiled in 124ms
+[374:07:03.355] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[374:07:03.612] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[374:07:03.612] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="fr">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[374:08:17.541] Server  LOG     ✓ Compiled in 192ms
+[374:08:20.266] Server  LOG     ✓ Compiled in 248ms
+[374:08:23.803] Server  LOG     ✓ Compiled in 349ms
